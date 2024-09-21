@@ -1,16 +1,15 @@
-# myapp
+# Task Checklist
 
-A new Flutter project.
+## Usage
 
-## Getting Started
+**Home Screen:**
+- The home screen displays a list of tasks organized by the day of the week.
+- Tasks are color-coded: red for overdue, green for completed.
+- You can see whether a task was completed on time or after the deadline.
 
-This project is a starting point for a Flutter application.
+**Adding/Deleting Tasks:**
+- Use the floating action button to add a new task.
+- To delete a task, simply swipe it to the left.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+**Data Storage:**
+- All task information is stored using shared preferences, ensuring your data is saved locally on the device.
